@@ -15,6 +15,7 @@ const Movie = () => {
   useEffect(() => {
     getMovies();
   }, []);
+  
   return (
     <div>
       <div>
